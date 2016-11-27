@@ -4,10 +4,12 @@ body {
     background-color: antiquewhite;
     */
     background: url(../image/bg2.JPG);
+    font-size: 100%;
 }
 
 header {
     background-color: rgba(0, 255, 255, 0.3);
+    font-size: 1.5em;
 }
 
 main {
@@ -59,9 +61,9 @@ li:first-child {
     color: red;
 }
 
-:first-letter {
+/*:first-letter {
     font-size: 1.5em;
-}
+}*/
 
 .a-style:link {
     color: red;
@@ -85,4 +87,16 @@ li:first-child {
 
 h3[class|="h3"] {
     color: chartreuse;
+}
+
+.article-1 {
+    font-size: 2em;
+}
+
+.section-2 {
+    font-size: 2em;
+}
+
+.p-3 {
+    font-size: 2em;
 }
