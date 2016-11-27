@@ -1,0 +1,88 @@
+body {
+    font-family: 宋体，Consolas, 楷体, serif;
+    /*
+    background-color: antiquewhite;
+    */
+    background: url(../image/bg2.JPG);
+}
+
+header {
+    background-color: rgba(0, 255, 255, 0.3);
+}
+
+main {
+    background-color: rgba(255, 127, 80, 0.4);
+
+}
+
+article {
+    border-style: solid;
+    font-family: 方正姚体, serif;
+}
+
+aside {
+    background-color: rgba(255, 20, 147, 0.3);
+}
+
+footer {
+    background-color: HSLA(180, 100%, 50%, 0.5);
+}
+
+.h1-style {
+    font-family: "Adobe 宋体 Std L", serif;
+}
+
+.ul-style {
+    font-family: 幼圆, serif;
+    color: blue;
+    text-decoration: underline;
+}
+
+.main-section {
+    /*font-size: 20px;*/
+    font-family: 华文隶书, serif;
+    border: inherit;
+    margin: 1em;
+    /*line-height: 1.5;*/
+}
+
+#img1 {
+    border: groove 4px red;
+    width: 30%;
+}
+
+main h2 ~ h3 {
+    color: red;
+}
+
+li:first-child {
+    color: red;
+}
+
+:first-letter {
+    font-size: 1.5em;
+}
+
+.a-style:link {
+    color: red;
+}
+
+.a-style:visited {
+    color: orange;
+}
+
+.a-style:focus {
+    color: purple;
+}
+
+.a-style:hover {
+    color: green;
+}
+
+.a-style:active {
+    color: blue;
+}
+
+h3[class|="h3"] {
+    color: chartreuse;
+}
