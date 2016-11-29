@@ -1,0 +1,55 @@
+html {
+    font-size: 100%;
+}
+
+ul li {
+    display: inline;
+    /*visibility: hidden;*/
+}
+
+.page {
+    background-color: darkgray;
+    padding: 10px;
+    /*border-width: 1000px;*/
+    margin: 20px;
+}
+
+.masthead {
+    background-color: #00fcff;
+}
+
+main {
+    background-color: goldenrod;
+}
+
+.post-photo {
+    border: groove 5px yellow;
+    width: 20%;
+}
+
+.sidebar {
+    background-color: chartreuse;
+}
+
+.endfooter {
+    background-color: aquamarine;
+}
+
+.about {
+    background-color: #874e1e;
+    padding: .01em .01em .01em .01em;
+}
+
+/*
+.out{
+     background-color: red;
+     width: 50%;
+ }
+.mid{
+    background-color: blue;
+    width: 50%;
+}
+.in{
+    background-color: green;
+    width: 50%;
+}*/
