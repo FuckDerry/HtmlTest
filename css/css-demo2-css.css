@@ -9,9 +9,9 @@ ul li {
 
 .page {
     background-color: darkgray;
-    padding: 10px;
+    /*padding: 10px;*/
     /*border-width: 1000px;*/
-    margin: 20px;
+    /*margin: 20px;*/
 }
 
 .masthead {
@@ -19,26 +19,48 @@ ul li {
 }
 
 main {
+    float: left;
     background-color: goldenrod;
+    width: 50%;
 }
 
 .post-photo {
-    border: groove 5px yellow;
+    /*float: left;*/
+    border: dashed 5px black;
     width: 20%;
 }
 
 .sidebar {
+    width: 50%;
+    float: right;
     background-color: chartreuse;
 }
 
 .endfooter {
+    clear: both;
     background-color: aquamarine;
 }
 
 .about {
     background-color: #874e1e;
-    padding: .01em .01em .01em .01em;
+    /*padding: .01em .01em .01em .01em;*/
 }
+
+.indie:hover {
+    /*position: absolute;
+    bottom: 0;
+    left: 0;*/
+    cursor: pointer;
+}
+
+/*.about img{
+    vertical-align: -50%;
+}*/
+/*.mod{
+    background-color: antiquewhite;
+    height: 100px;
+    overflow: auto;
+}*/
 
 /*
 .out{
