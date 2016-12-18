@@ -9,9 +9,10 @@ ul li {
 
 .page {
     background-color: darkgray;
-    /*padding: 10px;*/
-    /*border-width: 1000px;*/
-    /*margin: 20px;*/
+    padding: 10px;
+    /* border-width: 20px;*/
+    margin: 20px;
+    border: 10px ridge #ff0000;
 }
 
 .masthead {
@@ -53,9 +54,13 @@ main {
     cursor: pointer;
 }
 
-/*.about img{
-    vertical-align: -50%;
-}*/
+.container {
+    /*    margin: 10px;*/
+}
+
+.about img {
+    vertical-align: middle;
+}
 /*.mod{
     background-color: antiquewhite;
     height: 100px;
