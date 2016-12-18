@@ -1,19 +1,30 @@
 .journey {
     max-width: 100%;
+    border-radius: 20px;
+
 }
 
 body {
     margin: 0;
+    background-color: #b5fbff;
 }
 
 .test-p {
     color: green;
+    transition: color .6s ease;
+    font-size: 3em;
+    font-family: "Chalkduster", cursive, sans-serif;
+    text-decoration: none;
+}
+
+.test-p:hover {
+    color: #00fcff;
 }
 
 @media only screen and (max-width: 480px) {
     .test-p {
         color: red;
-        /*        font-size: 10em;*/
+        /*font-size: 10em;*/
         font-style: oblique;
     }
 }

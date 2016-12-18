@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a4118ce-20fb-40c8-8896-65d2764d11e4" name="默认的" comment="chapter11-end">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css-demo3-css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css-demo3.html" />
+    <list default="true" id="9a4118ce-20fb-40c8-8896-65d2764d11e4" name="默认的" comment="chapter12-end">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css-demo2-css.css" afterPath="$PROJECT_DIR$/css/css-demo2-css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css-demo3-css.css" afterPath="$PROJECT_DIR$/css/css-demo3-css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css-demo3.html" afterPath="$PROJECT_DIR$/html/css-demo3.html" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="css-demo3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="css-demo3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css-demo3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42414355">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="-6.275862">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css-demo3-css.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="css-demo3-css.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css-demo3-css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.068966">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.12682927">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +48,8 @@
       <file leaf-file-name="css-demo2-css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css-demo2-css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.724138">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state vertical-scroll-proportion="-18.344828">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,8 +58,8 @@
       <file leaf-file-name="css-demo2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css-demo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="20" />
+            <state vertical-scroll-proportion="-43.931034">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -97,8 +96,8 @@
         <option value="$PROJECT_DIR$/html/css-demo.html" />
         <option value="$PROJECT_DIR$/html/css-demo2.html" />
         <option value="$PROJECT_DIR$/css/css-demo2-css.css" />
-        <option value="$PROJECT_DIR$/css/css-demo3-css.css" />
         <option value="$PROJECT_DIR$/html/css-demo3.html" />
+        <option value="$PROJECT_DIR$/css/css-demo3-css.css" />
       </list>
     </option>
   </component>
@@ -109,7 +108,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1043" />
+    <option name="width" value="1077" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -407,7 +406,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480498185717</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chapter12-end">
+      <created>1482056764355</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1482056764355</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -420,13 +425,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1043" height="1038" extended-state="0" />
+    <frame x="-8" y="0" width="1077" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22243902" sideWeight="0.490991" order="0" side_tool="false" content_ui="combo" x="74" y="81" width="216" height="1803" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23435722" sideWeight="0.48387095" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23147093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23094426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.516129" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24858223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.49569893" order="7" side_tool="false" content_ui="tabs" />
@@ -496,7 +501,8 @@
     <MESSAGE value="chapter10-done" />
     <MESSAGE value="-chapter11.8" />
     <MESSAGE value="chapter11-end" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter11-end" />
+    <MESSAGE value="chapter12-end" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter12-end" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -815,32 +821,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css-demo2-css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.724138">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state vertical-scroll-proportion="-18.344828">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css-demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css-demo3-css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.068966">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state vertical-scroll-proportion="-43.931034">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css-demo3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42414355">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="-6.275862">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css-demo3-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12682927">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
