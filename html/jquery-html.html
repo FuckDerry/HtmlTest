@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/jquery-css.css"/>
+    <script type="text/javascript" src="../js/jquery-3.1.1.js"></script>
+    <style rel="stylesheet">
+        body {
+        }
+
+        span {
+            display: inline-block;
+            color: #075100;
+            width: 5em;
+            height: 2em;
+            text-align: center;
+            border: 1px solid red;
+        }
+
+        li {
+            margin-top: 1em;
+            list-style: none;
+        }
+
+        ul {
+            margin-left: 0;
+            padding: 0
+        }
+
+        .derry {
+            background-color: #00fcff;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <ul>
+        <li id="li-1"><span class="class-1" style="color: red">class-1</span><span class="class-1">class-1</span><span
+                class="class-1">class-1</span><span class="class-1">class-1</span><span class="class-1">class-1</span>
+        </li>
+        <li id="li-2"><span id="id-1">id-1</span><span class="id-2">id-2</span><span class="id-3">id-3</span><span
+                class="id-4">id-4</span><span class="id-5">id-5</span></li>
+        <li id="li-3"><span class="class-3">class-3</span><span class="class-3">class-3</span><span class="class-3">class-3</span><span
+                class="class-3">class-3</span><span class="class-3">class-3</span></li>
+        <li id="li-4"><span class="class-4">class-4</span><span class="class-4">class-4</span><span class="class-4">class-4</span><span
+                class="class-4">class-4</span><span class="class-4">class-4</span></li>
+        <li id="li-5"><span class="class-5"><a href="css-demo3.html">class-5</a></span><span
+                class="class-5">class-5</span><span class="class-5">class-5</span><span
+                class="class-5">class-5</span><span class="class-5">class-5</span></li>
+    </ul>
+    <hr>
+    <span id="click-1">span</span>
+</div>
+</body>
+<script>
+    $(function () {
+        $("#click-1").click(function () {
+            $("#li-1").toggleClass("derry");
+        });
+    });
+</script>
+</html>
