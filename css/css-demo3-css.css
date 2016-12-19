@@ -1,24 +1,62 @@
 .journey {
     max-width: 100%;
     border-radius: 20px;
-
+    opacity: .5;
 }
 
 body {
     margin: 0;
-    background-color: #b5fbff;
+    background-color: #8ffbff;
 }
 
-.test-p {
+.contents {
     color: green;
     transition: color .6s ease;
-    font-size: 3em;
+    font-size: 2em;
     font-family: "Chalkduster", cursive, sans-serif;
     text-decoration: none;
+    text-shadow: 2px 2px 8px #feff8a;
 }
 
-.test-p:hover {
+.icons {
+    display: inline-block;
+    min-height: 16px;
+    position: relative;
+    color: grey;
+    font-family: "Chalkduster", cursive, sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #000000;
+    font-weight: 800;
+}
+
+.icons:before {
+    background-image: url(../image/icon.png);
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+}
+
+a[href="css-demo2.html"]:before {
+    background-position: -17px 0;
+}
+
+a[href="css-demo3.html"]:before {
+    background-position: -34px 0;
+}
+
+.contents:hover {
     color: #00fcff;
+}
+
+.box-1 {
+    background: linear-gradient(to left, silver, black);
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 10px #bbbbbc;
 }
 
 @media only screen and (max-width: 480px) {
