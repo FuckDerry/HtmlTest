@@ -51,13 +51,35 @@
     </ul>
     <hr>
     <span id="click-1">span</span>
+    <span id="resizeTest">0</span>
+    <input type="text" name="words" placeholder="Test" id="focusTest">
+    <br>
+    <span id="keyTest"> press </span>
 </div>
 </body>
 <script>
-    $(function () {
-        $("#click-1").click(function () {
-            $("#li-1").toggleClass("derry");
-        });
+
+    $("#click-1").hover(function () {
+        /*$("#li-1").toggleClass("derry");*/
+        alert("123");
+    });
+    $(window).resize(function () {
+        $("#resizeTest").text(parseInt($("#resizeTest").text()) + 1);
+    });
+    $("#focusTest").focus(function () {
+        alert("focus");
+    });
+    $("#focusTest").blur(function () {
+        alert("blur");
+    });
+    $("#focusTest").keydown(function () {
+        alert("keydown");
+    });
+    $("#focusTest").keypress(function () {
+        alert("keypress");
+    });
+    $("#focusTest").keyup(function () {
+        alert("keyup");
     });
 </script>
 </html>
