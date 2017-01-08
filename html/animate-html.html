@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animate</title>
+    <script src="../js/jquery-3.1.1.js"></script>
+    <style>
+        .music {
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.56);
+        }
+
+        .play {
+            position: relative;
+            height: 40px;
+            width: 40px;
+            top: -30px;
+            right: 79px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="musicBox">
+    <img src="../image/green.jpg" class="music">
+    <img src="../image/play.png" class="play">
+</div>
+<!--<div class="musicBox">
+    <img src="../image/yellow.jpg" class="music">
+    <img src="../image/play.png" class="play">
+</div>
+
+<div class="musicBox">
+    <img src="../image/blue.jpg" class="music">
+    <img src="../image/play.png" class="play">
+</div>-->
+
+</body>
+<script>
+    $(".music").hover(
+            function () {
+                $(".play").fadeIn("fast");
+            }, function () {
+                $(".play").fadeOut("fast");
+            }
+    );
+</script>
+</html>

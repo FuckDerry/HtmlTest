@@ -31,6 +31,15 @@
         .derry {
             background-color: #00fcff;
         }
+
+        #toggleButton {
+            vertical-align: sub;
+        }
+
+        #keyTest {
+            /*display: none;*/
+            position: absolute;
+        }
     </style>
 </head>
 <body>
@@ -54,13 +63,16 @@
     <span id="resizeTest">0</span>
     <input type="text" name="words" placeholder="Test" id="focusTest">
     <br>
+    <button id="toggleButton">toggleButton</button>
+    <br>
     <span id="keyTest"> press </span>
+
 </div>
 </body>
 <script>
 
-    $("#click-1").hover(function () {
-        /*$("#li-1").toggleClass("derry");*/
+    /*$("#click-1").hover(function () {
+     /!*$("#li-1").toggleClass("derry");*!/
         alert("123");
     });
     $(window).resize(function () {
@@ -80,6 +92,21 @@
     });
     $("#focusTest").keyup(function () {
         alert("keyup");
+     });*/
+
+    $("#keyTest").click(function () {
+        $("#resizeTest").text(parseInt($("#resizeTest").text()) + 1);
+    });
+    $("#toggleButton").click(function () {
+        $("#keyTest").animate({
+            left: '200px',
+            opacity: '0.5',
+            height: '150px',
+            width: '+=150px'
+        });
+        $("#keyTest").animate({
+            fontSize: '50px'
+        });
     });
 </script>
 </html>
