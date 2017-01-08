@@ -5,44 +5,142 @@
     <title>Animate</title>
     <script src="../js/jquery-3.1.1.js"></script>
     <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: cursive;
+            height: 100%;
+        }
+
         .music {
-            margin: 10px;
+            margin: 10px 10px 10px 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.56);
+            border-radius: 8px;
         }
 
         .play {
             position: relative;
             height: 40px;
             width: 40px;
-            top: -30px;
-            right: 79px;
+            top: -70px;
+            left: 135px;
+            z-index: 999;
+            opacity: 0.5;
+            /*display: none;*/
+        }
+
+        .musicBox {
+            width: 205px;
+            height: 205px;
+            float: left
+        }
+
+        .all {
+            padding: 10px;
+            height: 100%;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+        }
+
+        .innerAll {
+            height: 100%;
+            border-top: 2px solid rgba(128, 128, 128, 0.51);
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .add {
+            float: left;
+            vertical-align: sub;
+            opacity: .5;
+        }
+
+        .message {
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(47, 51, 55, 0.5)), to(rgba(253, 253, 255, 0)));
+            color: #f3f3f3;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 185px;
+            height: 6em;
+            top: -245px;
+            left: 10px;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
             display: none;
         }
     </style>
 </head>
 <body>
-<div class="musicBox">
-    <img src="../image/green.jpg" class="music">
-    <img src="../image/play.png" class="play">
-</div>
-<!--<div class="musicBox">
-    <img src="../image/yellow.jpg" class="music">
-    <img src="../image/play.png" class="play">
-</div>
+<div class="all">
+    <p>RECOMMENDED</p>
+    <div class="innerAll">
+        <div class="musicBox">
+            <img src="../image/green.jpg" class="music">
+            <img src="../image/play2.png" class="play">
+            <div class="message">Alan Walker</div>
+        </div>
+        <div class="musicBox">
+            <img src="../image/yellow.jpg" class="music">
+            <img src="../image/play2.png" class="play">
+            <div class="message">Alan Walker</div>
+        </div>
 
-<div class="musicBox">
-    <img src="../image/blue.jpg" class="music">
-    <img src="../image/play.png" class="play">
-</div>-->
+        <div class="musicBox">
+            <img src="../image/blue.jpg" class="music">
+            <img src="../image/play2.png" class="play">
+            <div class="message">Alan Walker</div>
+        </div>
+        <div class="add">
+            <img src="../image/add.png">
+        </div>
+    </div>
+</div>
 
 </body>
 <script>
-    $(".music").hover(
+    //musicBox
+    $('body').on('mouseenter', '.musicBox', function () {
+        $(this).children('.play').stop();
+        $(this).children('.message').stop();
+        $(this).children('.message').slideDown(250);
+        $(this).children('.play').fadeIn(250);
+
+    });
+    $('body').on('mouseleave', '.musicBox', function () {
+        $(this).children('.play').stop();
+        $(this).children('.message').stop();
+        $(this).children('.message').slideUp(250);
+        $(this).children('.play').fadeOut(250);
+
+    });
+    //play
+    $('body').on('mouseenter', '.play', function () {
+        $(this).stop();
+        $(this).css("opacity", "1");
+    });
+    $('body').on('mouseleave', '.play', function () {
+        $(this).stop();
+        $(this).css("opacity", "0.5");
+    });
+    //add
+    $(".add").hover(
             function () {
-                $(".play").fadeIn("fast");
+                $(this).css("opacity", "1");
             }, function () {
-                $(".play").fadeOut("fast");
+                $(this).css("opacity", "0.5");
             }
     );
+    $(".add").click(function () {
+        addMusic();
+    });
+    function addMusic() {
+        var texts = "<div class='musicBox'> <img src='../image/green.jpg' class='music'> <img src='../image/play2.png' class='play'> <div class='message'>Alan Walker</div></div>";
+        $(".add").before(texts);
+    }
 </script>
 </html>
